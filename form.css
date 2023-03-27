@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap');
+
+:root{
+    --dark:#495e80;
+    --darker:#3f5574;
+    --darkest:#0f1d3b;
+    --grey:#9097a5;
+    --light:rgb(244, 242, 242);
+    --purple: #6743bb;
+}
+*{
+    box-sizing:border-box;
+    margin:0;
+    font-family:'Fira Sans',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background:var(--dark);
+    color: #FFF;
+
+}
+header{
+    padding:2rem 1rem;
+    max-width: 800px;
+    width:100%;
+    margin:0 auto;
+}
+header h1{
+    font-size: 2.5rem;
+    font-weight: 3
+    color:var(--grey);
+    margin-bottom: 1rem;
+    font-weight: 700;
+    background-image:linear-gradient(to right,var(--red),
+    var(--light));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+.studentform-form {
+    width: 30%;
+}
+
+.studentforms {
+    width: 70%;
+}
+    color: rgb(161, 152, 152);
+  }
+
+  body {
+  align-items: center;
+  background-image: url("download.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+.studentform-table {
+    width: 100%;
+    border: none;
+
+
+}
+
+#text{
+    flex:1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.0rem;
+}
+#textarea{
+    flex:1 1 0%;
+    background-color: var(--darker);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    color: var(--light);
+    font-size: 1.0rem;
+}
+
+.submit-btn{
+    background-color: green;
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.submit-btn:hover{
+    background-color: rgb(34, 40, 216);
+}
+.reset-btn{
+    background-color: rgb(204, 80, 64);
+    width: 100px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reset-btn:hover{
+    background-color: rgb(84, 13, 4);
+}
+
+.margin {
+    margin: 8px 0;
+    width: 100%;
+}
+  .container{
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+
+  }
+
+  .row{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div.sec-form{
+    border-right:2px solid #030303;
+  }
+
+  div.sec-form, div.sec-user{
+    justify-content: center !important;
+    background: transparent;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  div.sec-form h1, div.sec-user h1{
+    padding-top: 3%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  div .gender{
+    margin-right: 2%;
+  }
+
+  div .check2{
+    display: flex;
+  }
+
+  div .check1{
+    display: flex;
+  }
+
+  .btn2{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+  }
+
+.studentform-name-input {
+    height: 25px;
+}
+
+.studentform-table-body tr{
+    background: #fafafa;
+    color: #000;
+}
+.remove-studentform{
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.remove-studentform:hover{
+    background-color: brown;
+    color: #fff;
+}
+.studentform-table thead{
+    padding-top: 15px;
+}
+.studentform-table thead tr th{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+.studentforms{
+   background-color: rgb(226, 236, 236);
+   color: black;
+   font-size: 20px;
+   border-radius: 3px;
+   margin-left: 200px;
+   padding-left: 30px;
+   border: 3px solid rgb(3, 24, 28);
+}
+
+  .card-body p, .card-body h5{
+    color: rgb(0, 0, 0) !important;
+  }
+
+  .card1{
+    margin-top: 5vmin;
+    margin-bottom: auto;
+  }
+
+  .card{
+    margin-bottom: 5%;
+  }
+
+  .img-fluid{
+    height: 270px !important;
+  }
+
+  .card:hover{
+    box-shadow: rgba(0, 0, 0, 0.8) 0px 2px 8px 0px;
+  }
+
+
+  @media (max-width: 1140px){
+
+  .col-10{
+      padding-left: 5vmin;
+    }
+    .custom-con{
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+
+  }
+  @media (max-width: 768px){
+    .sec-form .btn2{
+      margin-bottom: 4vmin;
+    }
+    .sec-user{
+      border-top:2px solid #000000;
+    }
+  }
+
+  @media (max-width: 576px){
+    .sec-user{
+      margin-bottom: 2%;
+    }
+
+    .btn2{
+      display: block;
+    }
+
+   div .enroll1{
+     margin-bottom: 5%;
+   }
+
+  }
